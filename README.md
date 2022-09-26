@@ -11,5 +11,10 @@ docker run log-output
 
 ```
 kubectl create deployment log-output --image=pingust/log-output
+
+OR
+
+kubectl apply -f manifests/deployment.yaml
+
 kubectl logs -f ...
 ```
